@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Portfolio </title>
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- fonts-->
+	
+	<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Bitter:wght@700&family=Fondamento&family=Merienda+One&family=Merriweather+Sans:wght@800&family=Patua+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Berkshire+Swash&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Galada&family=Modak&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+	
+	<script type="text/javascript">
+		var flag=0;
+		window.onresize= myFunction2;
+		function myFunction(){
+			var display_ham=document.getElementById("topnav-div");
+			var hide_nav=document.getElementById("nav-btn");
+			var top_btn=document.getElementById("top_btn");
+			if(flag==0){
+				display_ham.style.width='60%';
+				top_btn.style.display='block';
+				flag++;
+			}
+			else{
+				display_ham.style.width='0px';
+				top_btn.style.display='none';
+				flag--;
+			}
+		}
+		function myFunction2(){
+			var display_ham=document.getElementById("topnav-div");
+			var hide_nav=document.getElementById("nav-btn");
+			var top_btn=document.getElementById("top_btn");
+			display_ham.style.width=0;
+			top_btn.style.display='none';
+		}
+		</script>
+</head>
+<body>
+	<div class="topnav" id="nav-btn">
+		<button class="nav-button">
+			<span class="button-style"><a href="#portfolio">Home</a> &nbsp;&nbsp;</span>
+			<span class="button-style"><a href="#about">About</a> &nbsp;&nbsp;</span>
+			<span class="button-style"><a href="#projects">Projects</a> &nbsp;&nbsp;</span>
+			<span class="button-style"><a href="#certifications">Certification</a></span>
+		</button>
+		
+	</div>
+	<div class="hamburger">
+			<i class="fa fa-bars" onclick="myFunction()"></i>
+	</div>
+
+	<div class="topnav-div" id="topnav-div">
+		<ul id="top_btn" type="none">
+			<li><a href="#portfolio"><button class="topbtn" onclick="myFunction2()">Home</button></a></li><br><br>
+			<li><a href="#about"><button class="topbtn" onclick="myFunction2()">About</button></a></li><br><br>
+			<li><a href="#projects"><button class="topbtn" onclick="myFunction2()">Projects</button></a></li><br><br>
+			<li><a href="#certifications"><button class="topbtn" onclick="myFunction2()">Certification</button></a></li><br><br>
+		</ul>
+	</div>
+	
+<div onclick="myFunction2()">
+	<div class="headline">
+		<p class="head1" style="margin-top: 0px;">“WELCOME”</p>
+	</div>
+	
+	<div class="image">
+		<img src="pic.jpg" class="mypic">
+	</div>
+	<div class="intro">
+		
+		<div class="self">
+			<div class="name">
+				PALLAVI
+			</div>
+			<div class="tell">
+				Computer Science Student ||Software Developer || Competitive Programmer
+			</div>
+			<div class="social">
+				<div class="icons">
+			        <span>
+			           <a class="nav-link" href="https://www.instagram.com/misskapoor11"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+			         </span>&nbsp;
+			        <span>
+			            <a class="nav-link" href="https://www.linkedin.com/in/pallavi-58b85a18a"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+			        </span>&nbsp;
+			        <span>
+			            <a class="nav-link" href="https://github.com/Pal2000"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+			        </span>
+    			</div>  
+			</div>
+		</div>
+		
+	</div>
+
+
+<!--    MOBILE VIEW for intro--->
+
+
+	<div class="image-mobile">
+		<img src="pic.jpg" class="mypic">
+	</div>
+	<div class="intro-mobile">
+		
+		<div class="self">
+			<div class="name">
+				PALLAVI
+			</div>
+			<div class="tell">
+				Computer Science Student   ||   Software Developer   ||   Competitive Programmer
+			</div>
+			<div class="social">
+				<div class="icons">
+			        <span>
+			           <a class="nav-link" href="https://www.instagram.com/misskapoor11"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+			         </span>&nbsp;
+			        <span>
+			            <a class="nav-link" href="https://www.linkedin.com/in/pallavi-58b85a18a"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+			        </span>&nbsp;
+			        <span>
+			            <a class="nav-link" href="https://github.com/Pal2000"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+			        </span> 
+
+    			</div>  
+			</div>
+		</div>
+		
+	</div>
+	<br><br><br><br>
+	<div class="resume">
+		<a href="https://drive.google.com/file/d/1ZeJE2VfsXvn88kna8W2DTLRUdnIeifKw/view?usp=sharing"><button class="button1 glow"> RESUME </button></a>
+	</div>
+
+	<br>
+	<div class="head2" id="about">
+		<h2> ABOUT ME</h2>
+	</div>
+
+	<div class="about">
+		<p> The passion of developing and creating something new pushes me into an IT field. In my childhood I had never thought of becoming an engineer, when I was in 11th standard I came to know about one of most successful woman, a chairperson of Infosys foundation(currently), Mrs. Sudha Murthy. I was greatly inspired from her journey of becoming a Computer engineer. That was the point when I decided to opt B.Tech. CSE. Right now I am in third year of my B.tech CSE in one of the biggest University in India, Lovely Professional University. My goal in life is to join MNCs and serve my nation with my skills and innovative ideas.</p>
+
+		<p>								Talking about my skills and technologies, I have a good command over various programming languages like C, C++, Core Java. I am also good in Data Structures and algorithms. I like to do competitive programming. I have a keen interest in Cloud computing, Mean Stack and Android app development. I always do my work with perfectionism, systematically and disciplined manner this is the biggest strength or quality of mine that will help me to achieve my goals.</p><br><br>
+
+		<p></p><i><strong>Always give your best in every kind of work , you never know which of your action makes you successful in life.<br>
+																													--Pallavi  </strong></i></p>
+		
+	</div>
+
+	 <br><br><br><br>
+
+	<div class="stack" >
+		<div class="line"> My Current Tools & Technologies </div>
+		<div class="tools">
+			<img src="https://img.icons8.com/color/48/000000/html-5.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/python.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/css3.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/ios-filled/50/000000/javascript.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/>
+		</div>
+	</div>
+	
+	 <br><br>
+
+	 <!-- certifications-->
+	 <div class="div-certi" id="certifications">
+	 		CERTIFICATIONS
+	 	</div>
+	 <div class="certi">
+	 	<br>
+	 	<div class="card-2">
+	 		<div class="cert-img"><img src="https://newcastlebeach.org/images/udemy-logo-6.png" alt="Avatar"></div>
+	 		<div class="cert-cont"><p style="font-size: 23px;"><b><strong>AWS Solution Architect Associates</strong></b> <a href="https://drive.google.com/file/d/1tJnS_fd4hz_OSZFHXV6Xhnr1PgQJlWQy/view?usp=sharing" style="float: right;"> View </a></p><br><p class="brand"> Udemy</p></div>
+	 	</div>
+	 	<div class="card-2">
+	 		<div class="cert-img"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" alt="Avatar"></div>
+	 		<div class="cert-cont"><p style="font-size: 23px;"><b><strong>Data Structures and Algorithms</strong></b> <a href="https://drive.google.com/file/d/1Wo2EiXRc9tOe_MGxkWzr3B-mfU9aaju6/view?usp=sharing" style="float: right;"> View </a></p><br><p class="brand"> GeeksforGeeks</p></div>
+	 	</div>
+		<div class="card-2">
+	 		<div class="cert-img"><img src="https://img.icons8.com/color/144/000000/google-logo.png"/></div>
+	 		<div class="cert-cont"><p style="font-size: 23px;"><b><strong>Foundation of Digital Marketing</strong></b> <a href="https://drive.google.com/file/d/1W8uK-Oi4agBBE2qoGoQknNRpBxMkQdDr/view?usp=sharing" style="float: right;"> View </a></p><br><p class="brand"> Google</p></div>
+	 	</div>
+	</div>
+	 <br><br>
+	
+	<!--  PROJECT -->
+	<div class="div-projects" id="projects">
+		PROJECTS
+	</div>
+	<div class="container-a"> 
+		  <div class="card"> 
+  			<img src="codey2.jpg" alt="Avatar" style="width:100%" class="codi coddies"><br>
+  			<div class="container2"> 
+    			<h4><b>CODDIES</b></h4>
+    			<p>A website related to DSA and Coding Problems</p><br>
+    			<a href="https://github.com/Pal2000/Coddies" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/nolan/144/processor.png"/ alt="Avatar" style="width:100%" class="codi"><br>
+			
+  			<div class="container2">
+    			<h4><b>MultiLevel CPU Scheduling</b></h4>
+    			<p>CPU Scheduling Algorithm to schedule no. of processes </p>
+    			<a href="https://github.com/Pal2000/Simulation-Project" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/cotton/144/000000/artificial-intelligence.png"/ alt="Avatar" style="width:100%" class="codi">
+			<br>
+  			<div class="container2">
+    			<h4><b>Book Recommendation System</b></h4>
+    			<p>This system tells highly rated book </p>
+    			<a href="https://github.com/Pal2000/Online-Book-Recommendation-System" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/color/144/000000/rgb-circle-1--v1.png"/ alt="Avatar" style="width:100%" class="codi">
+			<br>
+  			<div class="container2">
+    			<h4><b>RGB Colour Guessing Game</b></h4>
+    			<p> Colour Guessing game with interactive UI</p>
+    			<a href="https://github.com/Pal2000/RGB-Colour-Guessing-Game" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/nolan/144/to-do.png"/ alt="Avatar" style="width:100%" class="codi">
+			<br>
+  			<div class="container2">
+    			<h4><b>To-Do App</b></h4>
+    			<p>Most interactive and eye-catching UI with tansition and fading effects </p>
+    			<a href="https://github.com/Pal2000/To-do-list" style="text-align: center;">View</a>
+  			</div>
+		</div>
+	</div>	
+		<br><br><br>
+	<div class="container-b">
+		<div class="card">
+			<img src="https://img.icons8.com/nolan/144/-scoreboard-.png"/ alt="Avatar" style="width:100%" class="codi">
+			
+  			<div class="container2">
+    			<h4><b>Score Keeper</b></h4>
+    			<p>Keep the record of Points for two players </p><br>
+    			<a href="https://github.com/Pal2000/Score-Keeper" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/plasticine/144/000000/commercial-development-management.png"/ alt="Avatar" style="width:100%" class="codi">
+  			<div class="container2">
+    			<h4><b>Student Management System</b></h4>
+    			<p>Keep full record of the students</p>
+    			<a href="https://github.com/Pal2000/Student-Management-System" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/flat_round/144/000000/slip-dress.png"/ alt="Avatar" style="width:100%" class="codi">
+  			<div class="container2">
+    			<h4><b>Fashion Hub</b></h4>
+    			<p>Fashionable Clothing Website to showcase Branded cloths</p>
+    			<a href="https://github.com/Pal2000/Fashion-Hub" style="text-align: center;">View</a>
+  			</div>
+		</div>
+		<div class="card">
+			<img src="https://img.icons8.com/color/144/000000/books.png"/ alt="Avatar" style="width:100%" class="codi">
+			
+  			<div class="container2">
+    			<h4><b>Smart Library</b></h4>
+    			<p>This application handles the basic function of library</p>
+    			<a href="https://github.com/Pal2000/Smart-Library" style="text-align: center;">View</a>
+  			</div>
+		</div>
+	</div> 
+
+	<!-- Mobile view of cards-->
+	<div class="container-card" id="projects">
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="codey2.jpg" alt="Avatar" style="width:100%" class="coddies"></div><div class="cont"><a href="https://github.com/Pal2000/Coddies" ><p><strong>Coddies</strong></p></a></div>
+		</div>
+		
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/color/96/000000/books.png"/ alt="Avatar" style="width: 70%;"></div><div class="cont"><a href="https://github.com/Pal2000/Smart-Library" ><p><strong>Smart Library</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/nolan/144/processor.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/Simulation-Project" ><p><strong>Multilevel CPU Scheduling</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/cotton/96/000000/artificial-intelligence.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/Online-Book-Recommendation-System" ><p><strong>Book Recommendation System</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/color/144/000000/rgb-circle-1--v1.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/RGB-Colour-Guessing-Game" ><p><strong>RGB Colour Guessing Game</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/nolan/144/to-do.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/To-do-list" ><p><strong>To-Do App</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/nolan/144/-scoreboard-.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/Score-Keeper" ><p><strong>Score Keeper</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/plasticine/144/000000/commercial-development-management.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/Student-Management-System" ><p><strong>Student Management System</strong></p></a></div>
+		</div>
+		<div class="card-1" id="myDIV" onmouseover="myFunctionGlow()">
+		  <div class="codi"><img src="https://img.icons8.com/flat_round/144/000000/slip-dress.png"/ alt="Avatar" style="width:70%"></div><div class="cont"><a href="https://github.com/Pal2000/Fashion-Hub" ><p><strong>Fashionable Clothing Site</strong></p></a></div>
+		</div>
+		
+		<br><br>
+	</div>
+
+
+<br><br>
+<br><br><br><br>
+<hr>
+ <div class="footer">
+ 	<div class="c1">Created by Pallavi</div> <div class="c2"><img src="https://img.icons8.com/emoji/36/000000/sparkling-heart.png"/></div>
+ </div>
+</div>
+</body>
+</html>
